@@ -15,17 +15,18 @@
     <!-- navigation bar start -->
     <nav class="nav-bar">
   <img src="./images/logo.svg" alt="logo" class="nav-logo">
-  <ul class="Links">
+  <ul class="links">
   <li class="link link1"> <a href="#features"> Features </a> </li>
   <li class="link link2"> <a href="#team"> Team </a> </li>
   <li class="link link3"> <a href="#sign-in"> Sign In </a> </li>
   </ul>
+  <div class="padding">
     </nav>
-    <div class="pattern"></div>
+    
     <!-- navigation bar end -->
     <!-- header start -->
+          <img src="./images/illustration-intro.png" alt="img" class="header-image img">
     <header>
-      <img src="./images/illustration-intro.png" alt="img" class="header-image">
     <h1 class="heading">  All your files in one secure location, accessible anywhere. </h1>
 
    <p class="header-des des">Fylo stores all your most important files in one secure location. Access them wherever you need, share and collaborate with friends family, and co-workers. 
@@ -35,7 +36,9 @@
     </button>
   </header>
 <!-- header end -->
-<img src="./images/bg-curvy-mobile.svg" alt="" class="pattern">
+<img src="./images/bg-curvy-mobile.svg" alt="img" class="pattern pattern-mobile">
+<img src="./images/bg-curvy-desktop.svg" alt="img" class="pattern pattern-desktop">
+<div class="background">
 <!-- features start -->
 <section class="features" id="features">
   <!-- box 1 -->
@@ -89,39 +92,44 @@
   <!-- features end -->
 
   <!-- team section start -->
+  <img src="./images/illustration-stay-productive.png" alt="img" class="img2 img">
   <section class="team" id="team">
     <h1 class="team-header header">
   Stay productive, where ever you are
     </h1>
-    <p class="team-des1">
+    <p class="team-des1 team-des">
   Never let location be an issue when accessing your files. Fylo has you covered for all of your file 
   storage needs.
     </p>
-    <p class="team-des2">
+    <p class="team-des2 team-des">
   Securely share files and folders with friends, family and colleagues for live collaboration. No email 
   attachments required.
     </p>
     <div class="team-links">
-    <a href="team-link">See how Fylo works</a>
+    <a id="team-link" href="#">See how Fylo works</a>
+    <div id="under-line"></div>
     <img src="images/icon-arrow.svg" alt="img" class="arrow">
+    
     </div>
     </section>
     <!-- team section end -->
 
     <!-- reviews start -->
+                  <img src="./images/bg-quotes.png" alt="img" class="quotes">
     <section class="reviews" id="reviews">
       <!-- review 1 -->
       <div class="review-1 review">
+
   <p class="review-des1 review-des">
   Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
   become a well-oiled collaboration machine.
   </p>
 
         <div class="user-box1 user-box">
-          <img src="./images/profile-1.jpg" alt="img" class="review1-user">
+          <img src="./images/profile-1.jpg" alt="img" class="review1-user review-img">
           <pre class="review-user3 review-user">
-        Satish Patel
-        Founder & CEO, Huddle
+  Satish Patel
+  Founder & CEO, Huddle
                       </pre>
         </div>
         </div>
@@ -134,7 +142,7 @@
           become a well-oiled collaboration machine.
         </p>
         <div class="user-box2 user-box">
-          <img src="./images/profile-2.jpg" alt="img" class="review2-user">
+          <img src="./images/profile-2.jpg" alt="img" class="review2-user review-img">
           <pre class="review-user3 review-user">
   Bruce McKenzie
   Founder & CEO, Huddle
@@ -150,7 +158,7 @@
           become a well-oiled collaboration machine.
         </p>
         <div class="user-box3 user-box">
-          <img src="./images/profile-3.jpg" alt="img" class="review3-user">
+          <img src="./images/profile-3.jpg" alt="img" class="review3-user review-img">
         <pre class="review-user3 review-user">
   Iva Boyd
   Founder & CEO, Huddle
@@ -171,14 +179,18 @@
   It only takes a minute to sign up and our free starter tier is extremely generous. If you have any 
   questions, our support team would be happy to help you.
     </p>
-    <button class="sign-in-button button">
-  Get Started For Free
-    </button>
+    <form action="post" class="sign-in-email">
+    <input type="email" class="sign-in-email" placeholder="example@gmail.com">
+        <button class="sign-in-button2 button">
+          Get Started For Free
+        </button>
+    </form>
   </section>
   <!-- sign in section end -->
-
+  </div>
+  </div>
   <!-- footer start -->
-  <section class="footer" id="footer">
+  <footer class="footer" id="footer">
     <img src="./images/logo.svg" alt="" class="footer-logo">
 
     <!-- location -->
@@ -212,7 +224,7 @@
     <!-- ul1 end -->
 
     <!-- ul2 start -->
-    <ul class="links-box3">
+    <ul class="links-box2">
   <li class="contact us"> Contact Us </li>
   <li class="terms"> Terms </li>
   <li class="privacy"> Privacy </li>
@@ -229,7 +241,7 @@
 
   </div>
 
-  </section>
+  </footer>
 
   <!-- social icons end -->
 
