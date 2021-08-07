@@ -30,8 +30,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/position-absolute-H0MjVtDBe)
-- Live Site URL: [Add live site URL here](https://azkanorouzi.github.io/huddle-landing-page/)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/mobile-first-flex-and-grid-OP8RSLqIN)
+- Live Site URL: [Add live site URL here]("https://azkanorouzi.github.io/fylo-dark-theme-la/")
 
 
 
